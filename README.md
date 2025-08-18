@@ -1,4 +1,6 @@
-**<h5>README em desenvolvimento... 🛠️<h5>**
+<div align="center">
+    <img src="https://private-user-images.githubusercontent.com/74038190/240304586-d48893bd-0757-481c-8d7e-ba3e163feae7.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTU1MzUwNjMsIm5iZiI6MTc1NTUzNDc2MywicGF0aCI6Ii83NDAzODE5MC8yNDAzMDQ1ODYtZDQ4ODkzYmQtMDc1Ny00ODFjLThkN2UtYmEzZTE2M2ZlYWU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODE4VDE2MzI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU3NjhiMGVkOTUzMTFmNTE1NTAxZmFhY2I2ZmFlY2VlY2EzNDA1NWNmZTMxODhhMGFhMDE1YzIxNzM0M2JiZWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Ik4vdD3s45LihbCNhFcBeogU0N9J5SEKULYdztuujBE" />
+</div>
 
 ###
 
@@ -365,9 +367,62 @@ e retorna mensagens de erro apropriadas.
 
 ###
 
-Resumo<br>
-Agradecimento<br>
-Banner<br>
+**<h2>🗃️ Resumo:</h2>**
+
+###
+
+Resumindo o tema, uma API, é uma **Programação de Aplicações**, (**Application Programming Interface**). Ela baseia-se em um grupo<br>
+de regras que capacitam a interação entre softwares diferentes. É como se fosse um contrato que define a forma que um programa pode<br>
+solicitar e receber funcionalidades de outro programa.
+
+###
+
+**<h2>⚙️ Como uma API funciona:</h2>**
+
+###
+
+- Um programa faz uma solicitação à API, especificando o que precisa;
+- A API processa a solicitação, e retorna uma resposta com os dados solicitados;
+- A interação entre os programas são feitas seguindo as regras e protocolos definidos na API. 
+
+###
+
+**<h2>🏆 Exemplos de uso:</h2>**
+
+###
+
+1️⃣- **Pagamentos online</h2>**
+
+###
+
+Uma loja online pode usar uma API de um gateway de pagamento para processar transações, sem a necessidade de precisar desenvolver<br>
+todo o sistema de pagamento internamente. 
+
+###
+
+2️⃣- **Serviços meteorológicos</h2>**
+
+###
+
+A aplicação pode consumir a API de um serviço meteorológico para fornecer informações do tempo, em tempo real. 
+
+###
+
+**<h2>🖥️ Tipos de API:</h2>**
+
+###
+
+- API's internas;
+- API's públicas;
+- API's compostas;
+- API's de parceiros.
+
+###
+
+**<h1>Muito obrigado pela visita! Bons estudos!👋</h1>**
+
+###
+
 
 
 
