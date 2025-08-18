@@ -16,6 +16,19 @@ para aprender e se divertir programando! Essa API funciona da seguinte forma:
 ✅ Ela possui também, um link do localhost; <br>
 ✅ no software de teste, é possível **adicionar**, **editar**, e **excluir** um livro!
 
+###
+
+**<h2>📂 Este projeto mostra:</h2>**
+
+###
+
+- Desenvolver uma API em Python;
+- Utilizar a biblioteca `Flask` ou `FastAPI`, depende de sua escolha;
+- Fazer requisições usando Insomnia ou Postman;
+- Compreender cada parte do código com comentários.
+
+###
+
 **<h2>🛠 Passos para utilizar a API</h2>**
 
 ###
@@ -60,3 +73,5 @@ pip3 install flask
 ```
 
 ###
+
+
