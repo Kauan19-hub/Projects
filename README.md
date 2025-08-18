@@ -35,7 +35,7 @@ para aprender e se divertir programando! Essa API funciona da seguinte forma:
 
 Siga o passo a passo sobre como utilizar uma API. 
 
-**<h2>1️⃣ Ferramentas para teste</h2>**
+**<h2>1️⃣ Ferramentas para teste:</h2>**
 
 ###
 
@@ -53,7 +53,7 @@ Você pode escolher entre **Postman** ou **Insomnia**:
 
 ---
 
-**<h2>2️⃣ Instalação do Flask</h2>**
+**<h2>2️⃣ Instalação do Flask:</h2>**
 
 ###
 
@@ -159,64 +159,226 @@ if __name__ == '__main__':
 
 ###
 
-**<h2>📑Passo a passo explicado:</h2>**
-
-###
-```python
-from flask import Flask, jsonify, request
-````
+**<h2>📌 Explicação do código:</h2>**
 
 ###
 
-Importa o Flask e métodos necessários para a criação da API
-
-###
-```python
-api = Flask(__name__)
-```
+1️⃣ **Import:**
 
 ###
 
-Cria uma instância da aplicação Flask
+- `Flask`: cria a aplicação;
+- `jsonify`: transforma objetos Python em JSON;
+- `request`: permite acessar os dados da requisição.
 
 ###
-```python
-books = [
-    {
-        'id': 1,
-        'title': 'Pyhonic Mastery: From Beginner to Pro',
-        'actor': 'J.R Tolkyen',
-    },
-    {
-        'id': 2,
-        'title': 'Understand The Logic Of Programming',
-        'actor': 'J.K Houlyng',
-    },
-    {
-        'id': 3,
-        'title': 'Millionaire Mind',
-        'actor': 'J.P Mark',
-    }
+
+2️⃣ **Rotas:**
+
+###
+
+- `GET /books`: retorna todos os livros;
+- `GET /books/<id>`: retorna um livro com o id especificado;
+- `PUT /books/<id>`: atualiza um livro com base no seu id;
+- `POST /books`: adiciona um novo livro à lista;
+- `DELETE /books/<id>`: deleta um livro com o id especificado.
+
+###
+
+3️⃣ **Validações:**
+
+###
+
+- A API analisa se os dados necessários estão presentes nas requisições (por exemplo, ao adicionar um livro novo)<br>
+e retorna mensagens de erro apropriadas.
+
+###
+
+4️⃣ **Servidores:**
+
+- O servidor é chamado localmente, na porta 5000, e com o modo debug ativado para facilitar a depuração (correção de bug).
+
+###
+
+**<h2> ⚙ Como usar no Postman/Insomnia:</h2>**
+
+###
+
+✅ `GET /books`: Listar livros;<br>
+✅ `URL`: [http://localhost:5000/books](http://localhost:5000/books "Não precisa acessar este link");<br>
+✅ Método: `GET`;<br>
+✅ Corpo: Nenhum.<br>
+
+###
+
+**<h2>🧪 Resposta esperada:</h2>**
+
+###
+```json
+[
+  {
+    "id": 1,
+    "title": "Pyhonic Mastery: From Beginner to Pro",
+    "actor": "J.R Tolkyen"
+  }
 ]
 ```
 
 ###
 
-Lista de livros inicial (serve como "banco de dados" fake para este exemplo)
+✅ `GET /books/<id>`: Obter livro por ID;<br>
+✅ `URL`: [http://localhost:5000/books/1](http://localhost:5000/books/1 "Não precisa acessar este link");<br>
+✅ Método: `GET`.
 
 ###
-```python
-@api.route('/books', methods=['GET'])
+
+**<h2>🧪 Resposta esperada, caso ele exista:</h2>**
+
+###
+```json
+{
+  "id": 1,
+  "title": "Pyhonic Mastery: From Beginner to Pro",
+  "actor": "J.R Tolkyen"
+}
 ```
 
 ###
 
-Rota para listar todos os livros
+✅ `POST /books`: Adicionar novo livro;<br>
+✅ `URL`: [http://localhost:5000/books](http://localhost:5000/books "Não precisa acessar este link");<br>
+✅ Método: `POST`;
+✅ Body: `JSON`.
 
 ###
-```python
-def get_book():
+```json
+{
+  "id": 4,
+  "title": "New Book Title",
+  "actor": "New Author"
+}
 ```
 
 ###
+
+- Headers
+
+###
+
+    Content-Type: application/json
+
+###
+
+**<h2>🧪 Resposta esperada:</h2>**
+
+###
+```json
+{
+  "id": 4,
+  "title": "New Book Title",
+  "actor": "New Author"
+}
+```
+
+###
+
+**<h2>❌ Erros comuns de acontecer:</h2>**
+
+###
+
+- Se os campos estiverem faltando (`id`, `title`, `actor`) - retorna status `400`
+- Se o `ID` for duplicado - retorna status `400`
+
+###
+
+✅ `PUT /books/<id>` – Editar um livro existente;<br>
+✅ `URL`: [http://localhost:5000/books/2](http://localhost:5000/books/2 "Não precisa acessar este link");<br>
+✅ Método: `PUT`;<br>
+✅ Body `JSON`.
+
+###
+```json
+{
+  "title": "Updated Book Title"
+}
+```
+
+###
+
+**<h2>🧪 Resposta esperada:</h2>**
+
+###
+```json
+{
+  "id": 2,
+  "title": "Updated Book Title",
+  "actor": "J.K Houlyng"
+}
+```
+
+###
+
+✅ `DELETE /books/<id>` - Deletar um livro;<br>
+✅ `URL`: [http://localhost:5000/books/2](http://localhost:5000/books/3 "Não precisa acessar este link");<br>
+✅ Método: `DELETE`.
+
+###
+
+**<h2>🧪 Resposta esperada:</h2>**
+
+###
+```json
+{
+  "id": 3,
+  "title": "Millionaire Mind",
+  "actor": "J.P Mark"
+}
+```
+
+###
+
+**<h2>🚀 Dicas extras para Insomnia e Postman:</h2>**
+
+###
+
+**📩 Postman**
+
+###
+
+- Abra o Postman, e crie um **Collection**;
+- Crie uma **Request** dentro dela;
+- Escolha o `HTTP` certo: (`GET`, `POST`...);
+- Caso seja `POST` ou `PUT`, vá em `BODY` - `RAW` - `JSON`;
+- Insira a URL e teste em `SEND`.
+
+###
+
+**📩 Insomnia**
+
+###
+
+- Clique em New Request;
+- Escolha o método entre: (`GET`, `POST`) e nomeie;
+- Informe a `URL` e, caso seja necessário, vá em `Body` - `JSON`;
+- Adicione `headers` como `Content-Type`: application/json se for necessário;
+- Clique em `SEND` para enviar a requisição.
+
+###
+
+Resumo
+Agradecimento
+Banner
+
+
+
+
+
+
+
+
+
+
+
+
+
 
