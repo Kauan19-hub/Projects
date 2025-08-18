@@ -1,9 +1,3 @@
-<div align="center">
-    <img src=""/>
-</div>
-
-###
-
 **<h2>🚀 Tutorial da API 🚀</h2>**
 
 ###
@@ -420,6 +414,18 @@ A aplicação pode consumir a API de um serviço meteorológico para fornecer in
 ###
 
 **<h1>Muito obrigado pela visita! Bons estudos!👋</h1>**
+
+###
+
+**<h2>💎 Testado em:</h2>**
+
+###
+
+(✔️) Windows 11;<br>
+(✔️) Google Chrome;<br>
+(✔️) Postman;<br>
+(✔️) Insomnia;<br>
+(✔️) Visual Studio Code.<br>
 
 ###
 
