@@ -426,6 +426,9 @@ A aplicação pode consumir a API de um serviço meteorológico para fornecer in
 (✔️) Postman;<br>
 (✔️) Insomnia;<br>
 (✔️) Visual Studio Code.<br>
+(✔️) JavaScript;<br>
+(✔️) Node.JS;<br>
+(✔️) Extensão Live Server.
 
 ###
 
