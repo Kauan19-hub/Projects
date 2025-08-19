@@ -43,6 +43,14 @@ Você pode escolher entre **Postman** ou **Insomnia**:
 
 [Download Insomnia](https://insomnia.rest/download "Baixe o Insomnia e teste sua API!")
 
+<div align="left">
+  <a href="https://www.postman.com/downloads/ "Baixe o Postman e teste sua API!"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=black&style=for-the-badge" height="40" alt="postman logo"  />
+  <img width="12" />
+  <a href="https://insomnia.rest/download "Baixe o Insomnia e teste sua API!"/>
+  <img src="https://img.shields.io/badge/insomnia-5E00D3?logo=insomnia&logoColor=white&style=for-the-badge" height="40" alt="insomnia logo"  />
+</div>
+
 ###
 
 > 💡 Caso prefira, utilize apenas uma das duas ferramentas.
