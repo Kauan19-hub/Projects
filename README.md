@@ -1,1 +1,1 @@
-<h6>Repositório em desenvolvimento...</h6>
+<h6>README em desenvolvimento...</h6>
