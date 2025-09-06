@@ -1,56 +1,58 @@
-**<h2>🏅 API com FastAPI 🏅</h2>**
+**<h2>🏅 API with FastAPI 🏅</h2>**
 
 ###
 
-Breve descrição sobre o FastAPI, e como usá-lo.
+A brief description of FastAPI and how to use it.
 
 ---
 
-Uma API desenvolvida com FastAPI que retorna informações baseadas em nomes via rota `/name`.
+An API developed with `FastAPI` that returns information based on names via the `/name` route.
 
 ###
 
-**<h2>📂 Organização dos Arquivos</h2>**
+**<h2>📂 File Organization</h2>**
 
 ###
 
-📦projeto<br>
-┣  📂app<br>
-┃  ┣  📑main.py<br>
-┃  ┣  📑routes.py<br>
-┃  ┗  📑models.py<br>
-┣  📑requirements.txt<br>
-┣  📑README.md<br>
-┣  📑.gitignore<br>
-┗  📂env/ (virtualenv)<br>
+📦 project<br>
+┣  📂 app<br>
+┃  ┣  📑 main.py<br>
+┃  ┣  📑 routes.py<br>
+┃  ┗  📑 models.py<br>
+┣  📑 requirements.txt<br>
+┣  📑 README.md<br>
+┣  📑 .gitignore<br>
+┗  📂 env/ (virtualenv)<br>
 
 ---
 
-**<h2>📌 Instalação das Dependências</h2>**
+**<h2>📌 Dependency Installation</h2>**
 
 ###
 
-1️⃣- Clone o repositório:
+1️⃣- Clone the repository:
 
 ###
 ```powershell
 git clone https://github.com/Kauan19-hub/Projects.git
 ```
 
-2️⃣- Entre no repositório clonado:
+2️⃣- Enter the cloned repository:
 
 ###
 ```powershell
 cd Projects
 ```
 
-3️⃣- Crie, e ative o Ambiente Virtual `env`:
+3️⃣- Create and activate the Virtual Environment `env`:
+
+###
 
 Windows
 ```powershell
-python -m venv env  ### Cria a env
+python -m venv env  ### Creates the env
 
-.\env\Scripts\activate ### Ativa a env
+.\env\Scripts\activate ### Activates the env
 ```
 
 MacOS/Linux
@@ -60,47 +62,47 @@ python3 -m venv env
 source env/bin/activate
 ```
 
-4️⃣- Instale as dependências:
+4️⃣- Install the dependencies:
 
 ###
 ```powershell
-pip install fastapi uvicorn ### instale diretamente o FastAPI e o Uvicorn (caso não tenha o requirements.txt)
+pip install fastapi uvicorn ### install FastAPI and Uvicorn directly (if you don't have requirements.txt)
 ```
 
-**<h2>🛠 Em Andamento</h2>**
+**<h2>🛠 Running the Application</h2>**
 
 ###
 
-Após seguir os passos acima, digite:
+After following the steps above, type:
 ```powershell
 uvicorn main:app --reload
 ```
 
-A aplicação estará disponível em:
+The application will be available at:
 ```powershell
 http://127.0.0.1:8000/name
 ```
 
 ---
 
-**<h2>😉 Clonagem para Testes</h2>**
+*<h2>😉 Cloning for Tests</h2>*
 
 ###
 ```powershell
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone [your-repository-url]
 
-cd seu-repositorio
+cd [your-repository-folder]
 
 python -m venv env
 
-.\env\Scripts\activate  # ou source env/bin/activate
+.\env\Scripts\activate  # or source env/bin/activate
 
 pip install -r requirements.txt
 
 uvicorn main:app --reload
 ```
 
-**<h2>📊 Ferramentas Utilizadas</h2>**
+**<h2>📊 Tools Used</h2>**
 
 ###
 
@@ -110,14 +112,13 @@ uvicorn main:app --reload
 ✅ Git/GitHub;<br>
 ✅ Uvicorn;<br>
 ✅ Postman;<br>
-✅ JSon.<br>
+✅ JSON.<br>
 
 ###
 
-⬇ Para testar sua API, você pode usar um desses Softwares: ⬇
+To test your API, you can use one of these Software applications: 
 
-###
-
+---
 
 <div align="left">
   <a href="https://www.postman.com/" target="blank" rel="noopener noreferrer">
@@ -131,11 +132,11 @@ uvicorn main:app --reload
 
 ---
 
-**<h2>🤝 Contribuições</h2>**
+*<h2>🤝 Contributions</h2>*
 
 ###
 
-Sinta-se à vontade para abrir issues ou enviar pull requests, para contribuições ou sugestões! Muito obrigado! 😎
+Feel free to open issues or send pull requests for contributions or suggestions! Thank you very much! 😎
 
 
 
