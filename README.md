@@ -85,7 +85,7 @@ http://127.0.0.1:8000/name
 
 ---
 
-*<h2>😉 Cloning for Tests</h2>*
+**<h2>😉 Cloning for Tests</h2>**
 
 ###
 ```powershell
@@ -132,7 +132,7 @@ To test your API, you can use one of these Software applications:
 
 ---
 
-*<h2>🤝 Contributions</h2>*
+**<h2>🤝 Contributions</h2>**
 
 ###
 
