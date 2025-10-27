@@ -53,7 +53,7 @@ source env/bin/activate
 pip install fastapi uvicorn ### install FastAPI and Uvicorn directly (if you don't have requirements.txt)
 ```
 
-**<h2>🛠 Running the Application</h2>**
+**<h2>Running the Application</h2>**
 
 ###
 
@@ -90,13 +90,13 @@ uvicorn main:app --reload
 
 ###
 
-✅ FastAPI;<br>
-✅ Python;<br>
-✅ VS Code;<br>
-✅ Git/GitHub;<br>
-✅ Uvicorn;<br>
-✅ Postman;<br>
-✅ JSON.<br>
+- FastAPI;
+- Python;
+- VS Code;
+- Git/GitHub;
+- Uvicorn;
+- Postman;
+- JSON.
 
 ###
 
