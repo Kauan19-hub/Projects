@@ -1,4 +1,4 @@
-**<h2>🏅 API with FastAPI 🏅</h2>**
+**<h2>API with FastAPI</h2>**
 
 ###
 
@@ -10,23 +10,7 @@ An API developed with `FastAPI` that returns information based on names via the 
 
 ###
 
-**<h2>📂 File Organization</h2>**
-
-###
-
-📦 project<br>
-┣  📂 app<br>
-┃  ┣  📑 main.py<br>
-┃  ┣  📑 routes.py<br>
-┃  ┗  📑 models.py<br>
-┣  📑 requirements.txt<br>
-┣  📑 README.md<br>
-┣  📑 .gitignore<br>
-┗  📂 env/ (virtualenv)<br>
-
----
-
-**<h2>📌 Dependency Installation</h2>**
+**<h2>Dependency Installation</h2>**
 
 ###
 
@@ -85,7 +69,7 @@ http://127.0.0.1:8000/name
 
 ---
 
-**<h2>😉 Cloning for Tests</h2>**
+**<h2>Cloning for Tests</h2>**
 
 ###
 ```powershell
@@ -102,7 +86,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-**<h2>📊 Tools Used</h2>**
+**<h2>Tools Used</h2>**
 
 ###
 
@@ -129,15 +113,6 @@ To test your API, you can use one of these Software applications:
     <img src="https://img.shields.io/badge/insomnia-5E00D3?logo=insomnia&logoColor=white&style=for-the-badge" height="40" alt="insomnia logo"  title="Download Insomnia" /> 
   </a>
 </div>
-
----
-
-**<h2>🤝 Contributions</h2>**
-
-###
-
-Feel free to open issues or send pull requests for contributions or suggestions! Thank you very much! 😎
-
 
 
 
