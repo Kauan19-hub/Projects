@@ -33,16 +33,29 @@ cd Projects
 ###
 
 Windows
+
+###
+
 ```powershell
 python -m venv env  ### Creates the env
+```
 
+###
+```powershell
 .\env\Scripts\activate ### Activates the env
 ```
 
 MacOS/Linux
+
+###
+
 ```powershell
 python3 -m venv env
+```
 
+###
+
+```powershell
 source env/bin/activate
 ```
 
@@ -58,11 +71,17 @@ pip install fastapi uvicorn ### install FastAPI and Uvicorn directly (if you don
 ###
 
 After following the steps above, type:
+
+###
+
 ```powershell
 uvicorn main:app --reload
 ```
 
 The application will be available at:
+
+###
+
 ```powershell
 http://127.0.0.1:8000/name
 ```
@@ -74,31 +93,32 @@ http://127.0.0.1:8000/name
 ###
 ```powershell
 git clone [your-repository-url]
-
-cd [your-repository-folder]
-
-python -m venv env
-
-.\env\Scripts\activate  # or source env/bin/activate
-
-pip install -r requirements.txt
-
-uvicorn main:app --reload
 ```
 
-**<h2>Tools Used</h2>**
+###
+```powershell
+cd [your-repository-folder]
+```
 
 ###
-
-- FastAPI;
-- Python;
-- VS Code;
-- Git/GitHub;
-- Uvicorn;
-- Postman;
-- JSON.
+```powershell
+python -m venv env
+```
 
 ###
+```poweshell
+.\env\Scripts\activate  # or source env/bin/activate
+```
+
+###
+```powershell
+pip install -r requirements.txt
+```
+
+###
+```powershell
+uvicorn main:app --reload
+```
 
 To test your API, you can use one of these Software applications: 
 
