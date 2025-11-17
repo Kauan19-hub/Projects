@@ -92,11 +92,6 @@ http://127.0.0.1:8000/name
 
 ###
 ```powershell
-git clone https://github.com/Kauan19-hub/Bootcamp.Py
-```
-
-###
-```powershell
 cd https://github.com/Kauan19-hub/Bootcamp.Py
 ```
 
